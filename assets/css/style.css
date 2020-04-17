@@ -457,6 +457,19 @@ PÁGINA CONTACTANOS
     box-shadow:0 0 0 2px #b0c7f8;
 }
 
+.form-contacto .contacto input[type='email'] {
+    padding: 7px 6px;
+    width: 500px;
+    border: 1px solid rgb(253, 6, 6, 0.7);
+    resize: none; 
+    margin: 5px 0;
+}
+
+.form-contacto .contacto input[type='email']:focus {
+    outline: none; /* reset especifico para Chrome/Safari */
+    box-shadow:0 0 0 2px #b0c7f8;
+}
+
 /*###### BOTON ENVIAR ######*/
 
 .form-contacto .contacto .margen{

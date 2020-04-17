@@ -151,14 +151,12 @@
     <div id="contactos">
         <div class="form-contacto">
             <h2 class="titulo_pag">CONTACTANOS</h2>
-            <form class="contacto">
-                <div><label>Tu Nombre:</label><input type="text" placeholder="Alejandro"></div>
-                <div><label>Tu Apellido:</label><input type="text" placeholder="Alarcón"></div>
-                <div><label>Tu Email:</label><input type="text" placeholder="aaalarcon@trabajo.cl"></div>
+            <form class="contacto" action="enviado.repositorio" method="POST">
+                <div><label>Tu Nombre:</label><input type="text" name="nombre" placeholder="Alejandro" autofocus></div>
+                <div><label>Tu Apellido:</label><input type="text" name="apellido" placeholder="Alarcón"></div>
+                <div><label>Tu Email:</label><input type="email" name="email" placeholder="aaalarcon@trabajo.cl"></div>
                 <div class="margen"><input type="submit" value="Enviar"></div>
-                
             </form>
-
         </div>
     </div>  
 
